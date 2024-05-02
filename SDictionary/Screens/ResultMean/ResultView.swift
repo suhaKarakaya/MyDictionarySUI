@@ -65,7 +65,7 @@ struct ResultView: View {
                         }
                         .padding(.horizontal)
                     }
-                }.padding(.bottom, showBottomButton ? 140 : 0)
+                }.padding(.bottom, showBottomButton ? (viewModel.atasozuVisibility && viewModel.birlesiklerVisibility ? 140 : 80) : 0)
                 
             }
             .navigationDestination(isPresented: $viewModel.showDetailTwo) {
