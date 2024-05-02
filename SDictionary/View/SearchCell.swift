@@ -3,7 +3,7 @@
 //  SDictionary
 //
 //  Created by Süha Karakaya on 8.03.2024.
-//
+
 
 import SwiftUI
 
